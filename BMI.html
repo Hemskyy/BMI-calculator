@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="BMI.css" />
+  </head>
+  <body>
+    <div class="text">
+      <h1>BMI Calculator</h1>
+      <p>
+        Enter your weight (in kilograms) and height (in centimeters) to
+        calculate your BMI:
+      </p>
+    </div>
+
+    <div class="table">
+      <label for="weight">Weight (kg):</label>
+      <input type="number" id="weight" /><br />
+      <label for="height">Height (cm):</label>
+      <input type="number" id="height" /><br />
+      <button onclick="calculateBMI()">Calculate BMI</button><br />
+      <p id="result"></p>
+      <p id="interpretation"></p>
+    </div>
+
+    <script src="BMI.js"></script>
+  </body>
+
+  <footer>&copy Hemskyy 2023</footer>
+
+</html>
